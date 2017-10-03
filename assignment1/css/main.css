@@ -1,0 +1,112 @@
+body {
+    font-family: 'News Cycle', Arial, Arial, Helvetica, sans-serif;
+}
+
+
+.page-header{
+    font-weight: bold;
+    font-family: 'Antic Slab';
+    text-align: center;
+    font-size: 1.5rem;
+    color: #4A148C;
+}
+
+
+.nav-menu {
+    color: white;
+    font-size:20px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid white;
+    background-color: #7B1FA2;
+}
+
+.nav-menu li {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+.nav-menu a:link, a:visited {
+    color: white;
+}
+.nav-menu a:hover{
+    color: #CE93D8;
+}
+.nav-item-link a, a:visited, a:link {
+    text-decoration: none;
+    color: #F3E5F5;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+
+}
+.list-item-menu li {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: dashed black 1px;
+    display: inline-block;
+    background: #F3E5F5;
+}
+h2 {
+    font-size: 16px;
+    display: inline-block;
+    color: #4A148C;
+}
+.list-item-name{
+    margin: 15px 20px;
+}
+.list-item-date-of-birth {
+    float: right;
+    margin: 15px 20px;
+    font-style: italic;
+    color: #4A148C;
+}
+
+
+.list-item-menu-details {
+    text-align: center;
+    padding: 0 25px 25px;
+    color: #4A148C;
+}
+.list-name-details {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #4A148C;
+}
+.list-item-menu-details a {
+    color: #CE93D8;
+}
+
+
+form > input {
+    font-family: 'News Cycle';
+    font-size: 16px;
+    display: block;
+    width: 350px;
+    padding: 4px 8px;
+    margin:auto;
+    margin-bottom: 10px;
+    box-shadow:none;
+    background: none;
+    border-radius: 2px;
+    border: 1px solid #4A148C;
+    color: #4A148C;
+}
+form > button {
+    font-family: 'News Cycle';
+    font-size: 16px;
+    width: 250px;
+    display:block;
+    margin:auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #7B1FA2;
+    background-color: #7B1FA2;
+    color: #F3E5F5;
+}
